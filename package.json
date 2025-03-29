@@ -1,7 +1,7 @@
 {
   "name": "user-management-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project is a REST API built with Node.js and TypeScript for managing users. It provides full CRUD (Create, Read, Update, Delete) functionality using Express.js and TypeORM, with MySQL as the database. The API is structured to allow seamless integration and expansion.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
