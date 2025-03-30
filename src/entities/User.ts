@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 
 @Entity()
@@ -23,3 +24,6 @@ export class User {
     @Column()
     role: string;
 }
+=======
+//user.ts
+>>>>>>> 17c2921cae0a465338e91bbabdd5e1c5e8e2ca71
