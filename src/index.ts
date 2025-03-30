@@ -1,4 +1,3 @@
-//index.ts
 import "reflect-metadata";
 import express, { Request, Response } from 'express';
 import { AppDataSource, ensureDbExists } from "./_helpers/db"
