@@ -7,6 +7,7 @@ import dotenv from "dotenv";
 import { errorHandler } from './_middleware/error-handler'
 
 const app = express();
+const PORT = 4000;
 dotenv.config();
 
 //middlewares
@@ -21,7 +22,7 @@ ensureDbExists()
 
 
 // Routes
-app.use('/api/users', userRouter);
+app.use('/users', userRouter);
 
 // Catch 404 errors and forward to error handler
 app.use((req, res, next) => {
@@ -31,7 +32,7 @@ app.use((req, res, next) => {
 // Global error handler (must be last!)
 app.use(errorHandler);
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
