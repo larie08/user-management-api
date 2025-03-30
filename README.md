@@ -33,6 +33,10 @@ This project is a REST API built with Node.js and TypeScript for managing users.
 2. Install dependencies:
    ```bash
    npm install
+   npm i express dotenv helmet cors http-status-codes uuid bcryptjs
+   npm i -D typescript
+   npm i -D @types/express @types/dotenv @types/helmet @types/cors @types/http-status-codes @types/uuid @types/bcryptjs
+   npm i typeorm
    ```
 
 3. Configure environment variables:
